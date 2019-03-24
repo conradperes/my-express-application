@@ -22,7 +22,9 @@ npm install --save express serverless-http
 
 npm install --save aws-sdk body-parser
 
-5-To deploy on AWS the entire STACK on AWS CloudFormations, assuring that the trigger will be API Gateway, and the Lambda function will be our index.js, and the content of template of the deployment descriptor is serverless.yml, type this: sls deploy
+5-To deploy on AWS the entire STACK on AWS CloudFormations, assuring that the trigger will be API Gateway, and the Lambda function will be our index.js, and the content of template of the deployment descriptor is serverless.yml, type this: 
+
+sls deploy
 
 6-To test creating a record in table, make this request or in terminal or in postman, please notice that the the BASE_DOMAIN will be generated after deploy happend: 
 
